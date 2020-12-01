@@ -6,16 +6,25 @@ spans.forEach(span => span.addEventListener('mouseout', function(e){
     span.classList.remove('animated', 'rubberBand')
 }))
 
-
+const javaBar = document.querySelector('.bar-java')
+const pythonBar = document.querySelector('.bar-python')
+const mySQLBar = document.querySelector('.bar-mysql')
 const htmlBar = document.querySelector('.bar-html')
 const cssBar = document.querySelector('.bar-css')
-const javascriptBar = document.querySelector('.bar-javascript')
+const phpBar = document.querySelector('.bar-php')
+const jsBar = document.querySelector('.bar-javascript')
+const csharpBar = document.querySelector('.bar-csharp')
 
 var t1 = new TimelineLite()
 
-t1.fromTo(htmlBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(90% - 6px)`, ease: Power4.easeOut})
-    fromTo(cssBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(95% - 6px)`, ease: Power4.easeOut})
-    fromTo(javascriptBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+t1.fromTo(javaBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(80% - 6px)`, ease: Power4.easeOut})
+    .fromTo(pythonBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(80% - 6px)`, ease: Power4.easeOut})
+    .fromTo(mySQLBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+    .fromTo(htmlBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+    .fromTo(cssBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+    .fromTo(phpBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(75% - 6px)`, ease: Power4.easeOut})
+    .fromTo(jsBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(70% - 6px)`, ease: Power4.easeOut})
+    .fromTo(csharpBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(70% - 6px)`, ease: Power4.easeOut})
 
 const controller = new ScrollMagic.Controller()
 const scene = new ScrollMagic.Scene({

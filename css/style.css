@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "PT Sans", sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 html{
@@ -42,7 +42,8 @@ header a,
 .about h1,
 .skills h1,
 .work h1{
-    color: #707070;
+    /* color: #707070; */
+    color: goldenrod;
 }
 
 li{
@@ -202,7 +203,7 @@ span.m-left{
     margin-bottom: 50px;
 }
 
-.html{
+.skillset{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -235,16 +236,21 @@ div[class^='tag-'] p{
 }
 
 div[class^='bar-']{
-    position: relative;
+    position: absolute;
     background-color: #48CFAD;
     height: 10px;
     border-radius: 20px;
     margin: 2.7px;
 }
 
+.bar-java,
+.bar-python,
+.bar-mysql,
 .bar-html,
 .bar-css,
-.bar-javascript{
+.bar-php,
+.bar-javascript,
+.bar-csharp{
     width: calc(0 - 6px);
 }
 
@@ -272,6 +278,10 @@ div[class^='category-']{
     justify-self: center;
     position: relative;
     display: inline-block;
+}
+
+.work-category .active{
+    background-color: #ED5565;
 }
 
 button.active{
