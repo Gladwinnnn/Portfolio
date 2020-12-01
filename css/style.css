@@ -37,7 +37,7 @@ header{
 }
 
 header h1,
-haeder a,
+header a,
 .text p,
 .about h1,
 .skills h1,
@@ -161,7 +161,7 @@ span.m-left{
     z-index: 1;
 }
 
-a.about-me-info p{
+.about-me-info p{
     font-size: 1.3rem;
     color: #BEBEBE;
 }
@@ -178,5 +178,116 @@ a.about-me-info p{
     left: calc(100% - 100px);
     right: calc(100% - 100px);
     transform: translate(calc(-100% + 100px));
+}
+
+.skills{
+    height: 100vh;
+}
+
+.skills h1{
+    text-align: right;
+    font-size: 10rem;
+    opacity: .1;
+}
+
+.skills-info{
+    font-size: 1.4rem;
+    color: #BEBEBE;
+    max-width: 800px;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.html{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+div[class^='tag-']{
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
+    width: 120px;
+    height: 30px;
+    background-color: #1785A7;
+    margin-right: 30px;
+}
+
+div[class^='tag-'] p{
+    color: #fff;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 1.1rem;
+    padding-top: 3px;
+}
+
+.progressbar{
+    position: relative;
+    width: 600px;
+    height: 20px;
+    border: 2px solid #48CFAD;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+div[class^='bar-']{
+    position: relative;
+    background-color: #48CFAD;
+    height: 10px;
+    border-radius: 20px;
+    margin: 2.7px;
+}
+
+.bar-html,
+.bar-css,
+.bar-javascript{
+    width: calc(0 - 6px);
+}
+
+.work-category button{
+    text-transform: capitalize;
+    border: 3px solid #ED5565;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #ED5565;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    background-color: #252627;
+    outline: none;
+    cursor: pointer;
+}
+
+div[class^='category-']{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.work a{
+    justify-self: center;
+    position: relative;
+    display: inline-block;
+}
+
+button.active{
+    color: #fff;
+}
+
+.work a img{
+    width: 350px;
+    justify-self: center;
+}
+
+div.hideCategory{
+    display: none;
+}
+
+.showCategory{
+    display: block;
 }
 
