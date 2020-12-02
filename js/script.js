@@ -29,7 +29,7 @@ t1.fromTo(javaBar, .75, {width: `calc(0% - 6px)`}, {width: `calc(80% - 6px)`, ea
 const controller = new ScrollMagic.Controller()
 const scene = new ScrollMagic.Scene({
     triggerElement: '.skills',
-    triggerHook: 0
+    triggerHook: 0.5
 })
 .setTween(t1)
 .addTo(controller)
