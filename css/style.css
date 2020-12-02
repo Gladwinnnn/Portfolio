@@ -313,3 +313,59 @@ footer p{
     font-size: 1.2rem;
     padding: 20px 0;
 }
+
+.social-icons{
+    top: 50%;
+    transform: translateY(-50%);
+    position: sticky;
+    z-index: 1;
+    width: 80px;
+}
+
+.social-icons ul{
+    padding: initial;
+}
+
+.social-icons ul li{
+    height: 45px;
+    width: 40px;
+    list-style-type: none;
+    padding-top: 6px;
+    margin-top: 5px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+/* Add a hover effect if you want */
+.fa:hover {
+    padding-left: 30px;
+    width: 80px;
+    transition: ls;
+}
+  
+/* Set a specific color for each brand */
+
+/* Linkedin */
+.fa-linkedin {
+    background-color:#0072b1;
+    color: white;
+}
+
+/* Github */
+.fa-github {
+    background: #211F1F;
+    color: white;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
