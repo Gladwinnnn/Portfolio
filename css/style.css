@@ -320,6 +320,7 @@ footer p{
     position: sticky;
     z-index: 1;
     width: 80px;
+    height: 100px;
 }
 
 .social-icons ul{
