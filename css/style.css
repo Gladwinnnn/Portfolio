@@ -138,13 +138,13 @@ span.m-left{
 }
 
 .about{
-    height: 160vh;
-    margin-top: -250px;
+    height: 50%;
+    margin-top: -15%;
 }
 
 .experience{
-    height: 160vh;
-    margin-top: 100px;
+    height: 100%;
+    margin-top: 10%;
 }
 
 .about h1,
@@ -189,8 +189,8 @@ span.m-left{
 }
 
 .skills{
-    height: 80vh;
-    margin-top: -750px;
+    height: 50%;
+    margin-top: -10%;
 }
 
 .skills h1{
