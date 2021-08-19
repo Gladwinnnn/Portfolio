@@ -1,3 +1,12 @@
-# This is a Portfolio project which highlights my relevant skills and experience
-# You can check out my site here: https://gladwinportfolio.netlify.app/
-# Disclaimer: I created this site using guides by bits and pieces of features by Online Mentor & Easy Tutorials
+## Personal Portfolio
+
+### [Live Site](https://jsmasterypro.com)
+
+![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+
+This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+
+In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
+
+Setup:
+- run ```npm i && npm start```
