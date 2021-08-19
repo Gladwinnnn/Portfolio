@@ -10,26 +10,26 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color:"white" }}>
-          <DiCssdeck size="3rem" /> <span>Portfolio</span>
+          <DiCssdeck size="3rem" /> <span>Gladwin's Portfolio</span>
         </a>
       </Link>
     </Div1>
     <Div2>
-      <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+    <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
         </Link>
       </li>  
       <li>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
-      </li>  
+      </li> 
       <li>
-        <Link href="#projects">
-          <NavLink>Projects</NavLink>
+        <Link href="#about">
+          <NavLink>About</NavLink>
         </Link>
-      </li>            
+      </li>             
     </Div2>
       <Div3>
         <SocialIcons href="https://github.com/Gladwinnnn">
