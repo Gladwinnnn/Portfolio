@@ -36,6 +36,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Java Spring <br />
             Python Flask <br />
+            Android Kotlin <br />
             PHP <br />
             MySQL <br />
             Microsoft SQL <br />
