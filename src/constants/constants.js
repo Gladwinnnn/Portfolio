@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Leetcode Practice',
-    description: "My Leetcode repository where I solve questions using Java. This repository was created for me to revise and keep track of my coding progress on leetcode in preparation for any coding interviews. Feel free to use this if you find it helpful",
+    description: "My Leetcode repository where I solve questions using Java. This repository was created for me to revise and keep track of my coding progress on leetcode in preparation for any coding interviews. Feel free to use this if you find it helpful.",
     image: '/images/leetcode.png',
     tags: ['Java'],
     source: 'https://github.com/Gladwinnnn/Leetcode',
