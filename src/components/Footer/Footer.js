@@ -18,7 +18,7 @@ const Footer = () => {
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>"The best investment you can make, is an investment in yourself"</Slogan>
-          <Slogan>                                                                 -Warren Buffett</Slogan>
+          <Slogan>                                                                 -Warren Buffeett</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/Gladwinnnn">
