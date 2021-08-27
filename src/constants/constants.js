@@ -4,8 +4,8 @@ export const projects = [
     description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Out Of Control’ and submit it 48 hours after the theme was announced. Our game came in top 100 in the number of ratings.",
       image: '/images/Lonely Slime.gif',
       tags: ['Unity ', 'C#'],
-    source: 'https://google.com',
-    visit: 'https://sohwathismelvin.itch.io/lonely-slime',
+    source: 'https://sohwathismelvin.itch.io/lonely-slime',
+    visit: 'https://google.com',
     id: 0,
   },
   {
