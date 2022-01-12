@@ -42,5 +42,5 @@ export const TimeLineData = [
   { year: 2019, text: 'Worked as a IT System Developer at Onbrand Corporation', },
   { year: 2020, text: 'Worked as a Entrepreneur Associate at I.O.T Workz', },
   { year: 2021, text: 'Worked as a Software Engineer Intern at Bank of Singapore', },
-  { year: 2022, text: 'Working as a Technology Executive at DBS Bank', },
+  { year: 2022, text: 'Working as a Software Engineer (SEED program) at DBS Bank', },
 ];
