@@ -6,7 +6,7 @@ import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
 const data = [
   { number: 30, text: 'Personal projects on Github'},
   { number: 150, text: 'Ratings for Lonely Slime', },
-  { number: 60, text: 'Problems solved on Leetcode', }
+  { number: 80, text: 'Problems solved on Leetcode', }
 ];
 
 const Acomplishments = () => (
