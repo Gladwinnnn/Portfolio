@@ -20,7 +20,6 @@ const Technologies = () =>  (
           <ListTitle>Frontend</ListTitle>
           <ListParagraph>
             React.js <br />
-            Vue.js <br />
             HTML <br />
             CSS <br />
             Javascript <br />
