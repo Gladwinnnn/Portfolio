@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Whack-A-Mole',
     description: "Created a simple arcade game similar to the classic Whack A Mole game where players are supposed to tap any moles they see to gain points within a minute. Published the game to Google Playstore for free without any ads.",
-      image: '/images/Whacko Mole.png',
+      image: '/images/test.png',
       tags: ['Unity', 'C#'],
     source: 'https://play.google.com/store/apps/details?id=com.Gladeo.WhackAMole&hl=en_SG&gl=US',
     visit: 'https://github.com/Gladwinnnn/Whack-A-Mole',
