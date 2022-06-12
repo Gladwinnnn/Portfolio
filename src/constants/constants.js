@@ -48,7 +48,7 @@ export const projects = [
     title: 'Portfolio Website',
     description: "This is a Portfolio project which highlights my relevant skills and experience",
     image: '/images/Portfolio.png',
-    tags: ['Java'],
+    tags: ['React.js'],
     source: 'https://gladwinneo.vercel.app/',
     visit: 'https://github.com/Gladwinnnn/Portfolio',
     id: 4,
