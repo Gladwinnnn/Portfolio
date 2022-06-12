@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'Mr B.Hell',
-    description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Death is only the beginning’ and submit it 10 days after the theme was announced. This is the first game I've made after taking a break for a bit",
+    description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Death is only the beginning’ and submit it 10 days after the theme was announced.",
     image: '/images/Mr B Hell.gif',
     tags: ['Unity', 'C#'],
     source: 'https://itch.io/jam/gamedevtv-jam-2022/rate/1553425',
