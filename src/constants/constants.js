@@ -28,7 +28,7 @@ export const projects = [
   },
   {
     title: 'MR B.Hell',
-    description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Death is only the beginning’ and submit it 10 days after the theme was announced.",
+    description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Death is only the beginning’ and submit it 10 days after the theme was announced. This is the first game I've made after taking a break for a bit",
     image: '/images/Mr B Hell.gif',
     tags: ['Unity', 'C#'],
     source: 'https://itch.io/jam/gamedevtv-jam-2022/rate/1553425',
@@ -46,7 +46,7 @@ export const projects = [
   },
   {
     title: 'Portfolio Website',
-    description: "This is a Portfolio project which highlights my relevant skills and experience",
+    description: "This is a Portfolio project which highlights my relevant skills and experience. You are able to see all my past projects, work experiences, technology stack that I'm comfortable with as well as my personal achievements over the years.",
     image: '/images/Portfolio.png',
     tags: ['React.js'],
     source: 'https://gladwinneo.vercel.app/',
