@@ -27,13 +27,31 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'MR B.Hell',
+    description: "Participated in a game making competition where my team and I had to create a game with the theme ‘Death is only the beginning’ and submit it 10 days after the theme was announced.",
+    image: '/images/Mr B Hell.gif',
+    tags: ['Unity', 'C#'],
+    source: 'https://itch.io/jam/gamedevtv-jam-2022/rate/1553425',
+    visit: 'https://github.com/Gladwinnnn/Bullet-Hell',
+    id: 3,
+  },
+  {
     title: 'Leetcode Practice',
     description: "My Leetcode repository where I solve questions using Java. This repository was created for me to revise and keep track of my coding progress on leetcode in preparation for any coding interviews. Feel free to use this if you find it helpful.",
     image: '/images/leetcode.png',
     tags: ['Java'],
     source: 'https://leetcode.com/Gladeo/',
     visit: 'https://github.com/Gladwinnnn/Leetcode',
-    id: 3,
+    id: 4,
+  },
+  {
+    title: 'Portfolio Website',
+    description: "This is a Portfolio project which highlights my relevant skills and experience",
+    image: '/images/Portfolio.png',
+    tags: ['Java'],
+    source: 'https://gladwinneo.vercel.app/',
+    visit: 'https://github.com/Gladwinnnn/Portfolio',
+    id: 4,
   },
 ];
 
